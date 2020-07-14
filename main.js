@@ -1,5 +1,5 @@
-class traveler {
-    constructor (name) {
+class Traveler {
+    constructor (name, food, isHeatlthy) {
         /*name, which must be provided as a parameter to the constructor.
         an amount of food, with an initial value of 1.
         an isHealthy property, with an initial value of true, 
@@ -27,8 +27,8 @@ class traveler {
 }
 
 
-class wagon {
-    constructor (capacity) {
+class Wagon {
+    constructor (capacity, passengers) {
         /*a capacity, which must be provided to the constructor: 
         this is the maximum number of passengers a wagon can hold.
         a passengers list, which is initially an empty array.*/
